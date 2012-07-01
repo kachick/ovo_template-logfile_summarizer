@@ -1,0 +1,45 @@
+= ovo_template-logfile_summarizer
+
+code :: https://github.com/kachick/ovo_template-logfile_summarizer
+bugs :: https://github.com/kachick/ovo_template-logfile_summarizer/issues
+gem  :: https://rubygems.org/gems/ovo_template-logfile_summarizer
+
+== Description
+
+An utility for the OVO(OpenViewOperations).
+"logfile.dat(syslog templates)" to some CSV files.
+
+== Feutures
+
+* Supportting formatted version is "5".
+  See the header of "logfile.dat"
+
+      > head logfile.dat
+
+* Author is just a user of OVO, Of course "No Warranty" :)
+
+== Usage
+
+    > ovo_template-logfile_summarizer logfile.dat [*logfile.dat]
+
+== Requirements
+
+* Ruby 1.9.3
+  
+  Focusing
+  
+  * 1.9.3-p194
+
+* striuct - 0.3.0
+
+== Installation
+
+* gem install ovo_template-logfile_summarizer
+
+== License
+
+GPL 3.0
+
+Copyright (c) 2010-2012 Kenichi Kamiya
+
+See the file COPYING for further details.

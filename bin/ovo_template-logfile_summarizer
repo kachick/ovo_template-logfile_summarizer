@@ -1,0 +1,10 @@
+#!/usr/local/bin/ruby -w
+# Copyright (C) 2012  Kenichi Kamiya
+
+require_relative '../lib/ovo_templatelogfile_summarizer'
+
+unless ARGV.length >= 1
+  abort "usage: #{$PROGRAM_NAME} logfile.dat [*logfile.dat]"
+end
+
+OVO_TemplateLogfile_Summarizer.run ARGV
