@@ -5,7 +5,7 @@ Rakefile
 History.txt
 lib/ovo_templatelogfile_summarizer.rb
 lib/ovo_templatelogfile_summarizer/csvformatter.rb
-lib/openviewoperations/template.rb
-lib/openviewoperations/template/parser.rb
-lib/openviewoperations/template/parser/logfile.rb
+lib/openviewoperations/templates.rb
+lib/openviewoperations/templates/parser.rb
+lib/openviewoperations/templates/parser/logfile.rb
 bin/ovo_template-logfile_summarizer

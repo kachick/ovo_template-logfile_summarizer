@@ -3,7 +3,9 @@
 require 'striuct'
 
 module OpenViewOperations; class Templates; class Parser
+
   class LOGFILE < self
+
     Core = Striuct.define do
       member :text, AND(String, NOT(''))
     end
@@ -68,7 +70,9 @@ module OpenViewOperations; class Templates; class Parser
     def parse_set_close_after_read
       parse_flag :CLOSE_AFTER_READ
     end
+
   end
 
   Logfile = Syslog = LOGFILE
+
 end; end; end

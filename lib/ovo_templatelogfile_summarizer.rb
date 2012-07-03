@@ -16,7 +16,8 @@ end
 module OVO_TemplateLogfile_Summarizer
 
   include OpenViewOperations
-
+  
+  VERSION = '0.0.1'.freeze
   FORMATTER = CSVFormatter
   TITLE     = FORMATTER.title
 
